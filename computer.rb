@@ -12,5 +12,9 @@ class Computer
         self.files[filename] = time
         puts "New File was Created"
     end
+
+    def self.get_users
+        @@users
+    end
 end
 
